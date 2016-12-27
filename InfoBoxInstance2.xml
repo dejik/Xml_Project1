@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:InfoBox xmlns:tns="http://www.wikipedia.org/InfoaBoxSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wikipedia.org/InfoaBoxSchema InfoBoxSchema.xsd ">
+  <tns:Author>John.Doe</tns:Author>
+  <tns:OrginalTitle>String_Extract </tns:OrginalTitle>
+  <tns:Display>String_Extract</tns:Display>
+  <tns:Languade scheme="rTF566467">
+    <tns:Name>en-US</tns:Name>
+  </tns:Languade>
+  <tns:Genre>Tutoral</tns:Genre>
+  <tns:publisher>JavaPoint </tns:publisher>
+  <tns:PubDate scheme="W3C-10">
+    <tns:Name>2010-10</tns:Name>
+  </tns:PubDate>
+  <tns:pages>400</tns:pages>
+</tns:InfoBox>

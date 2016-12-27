@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.wikipedia.org/InfoaBoxSchema" xmlns:tns="http://www.wikipedia.org/InfoaBoxSchema" elementFormDefault="qualified">
+
+    <element name="InfoBox" type="tns:InfoBox"></element>
+    
+    <complexType name="InfoBox">
+    	<sequence>
+    		<element name="Author" type="string" maxOccurs="unbounded"
+    			minOccurs="0">
+    		</element>
+    		<element name="OrginalTitle" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="Display" type="string" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="Language " type="tns:elementType"
+    			maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="Genre" type="string" maxOccurs="unbounded"
+    			minOccurs="0">
+    		</element>
+    		<element name="PubDate" type="tns:elementType" maxOccurs="1"
+    			minOccurs="0">
+    		</element>
+    		<element name="pages" type="integer" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="elementType">
+    	<sequence>
+    		<element name="Name" type="string"></element>
+    	</sequence>
+    	<attribute name="scheme" type="string"></attribute>
+    </complexType>
+</schema>

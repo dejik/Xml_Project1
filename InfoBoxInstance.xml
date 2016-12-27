@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:InfoBox xmlns:tns="http://www.wikipedia.org/InfoaBoxSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wikipedia.org/InfoaBoxSchema InfoBoxSchema.xsd ">
+  <tns:Author>Erik T. Ray</tns:Author>
+  <tns:OrginalTitle>LearningXml</tns:OrginalTitle>
+  <tns:Display>LearningXml</tns:Display>
+  <tns:Languade scheme="rTF56646">
+    <tns:Name>en-US</tns:Name>
+  </tns:Languade>
+  <tns:Genre>Tutorial</tns:Genre>
+  <tns:publisher>XmlTeach</tns:publisher>
+  <tns:PubDate scheme="W3C-09">
+    <tns:Name>2001-09</tns:Name>
+  </tns:PubDate>
+  <tns:pages>401</tns:pages>
+</tns:InfoBox>
